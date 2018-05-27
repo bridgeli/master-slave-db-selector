@@ -1,0 +1,8 @@
+target/
+.settings/
+.classpath
+.project
+.externalToolBuilders/
+.idea/
+*.iml
+.DS_Store
