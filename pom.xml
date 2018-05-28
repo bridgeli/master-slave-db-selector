@@ -1,12 +1,53 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
+
     <groupId>cn.bridgeli</groupId>
     <artifactId>master-slave-db-selector</artifactId>
     <packaging>jar</packaging>
     <version>0.0.1-SNAPSHOT</version>
+
     <name>master-slave-db-selector Maven Webapp</name>
-    <url>http://maven.apache.org</url>
+    <description>master-slave-db-selector</description>
+    <url>https://github.com/bridgeli/master-slave-db-selector</url>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <issueManagement>
+        <system>GitHub Issues</system>
+        <url>https://github.com/bridgeli/master-slave-db-selector/issues</url>
+    </issueManagement>
+
+    <scm>
+        <connection>scm:git:git://github.com/bridgeli/master-slave-db-selector.git</connection>
+        <developerConnection>scm:git:git@github.com:bridgeli/master-slave-db-selector.git</developerConnection>
+        <url>https://github.com/bridgeli/master-slave-db-selector</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <developers>
+        <developer>
+            <id>BridgeLi</id>
+            <name>BridgeLi</name>
+            <email>bridgeli.dev@gmail.com</email>
+            <roles>
+                <role>Developer</role>
+            </roles>
+            <timezone>+8</timezone>
+        </developer>
+    </developers>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -65,7 +106,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
-            <version>1.0.12</version>
+            <version>1.1.10</version>
             <scope>provided</scope>
         </dependency>
 
