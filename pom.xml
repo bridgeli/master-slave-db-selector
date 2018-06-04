@@ -10,7 +10,7 @@
     <groupId>cn.bridgeli</groupId>
     <artifactId>master-slave-db-selector</artifactId>
     <packaging>jar</packaging>
-    <version>0.0.2</version>
+    <version>0.0.3-SNAPSHOT</version>
 
     <name>master-slave-db-selector Maven Webapp</name>
     <description>master-slave-db-selector</description>
